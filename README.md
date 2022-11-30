@@ -3942,8 +3942,4 @@ function ui:W1n(text,text2,text2Pos,toclose)
 	return uitop
 end
 
-local win = ui:W1n("HUB YOU","GUI",0.30,Enum.KeyCode.RightControl)
-
-local Tap = win:Tap("Main")
-
-local AutoFarm = Tap:newpag
+local win = ui:W1n("Waifu Hub","GUI",0.30,Enum.KeyCode.RightControl)
