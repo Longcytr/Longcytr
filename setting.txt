@@ -1,0 +1,436 @@
+_G.BaconXD = true
+_G.BaconHair = true
+_G.BaconBig = true
+_G.BaconBuggy = true
+_G.BossBaconBuggy = true
+_G.BossFan = true
+_G.BossKing = true
+_G.BossSnow = true
+_G.Baconcurse = true
+_G.Baconangry = true
+_G.BaconRed = true
+_G.BaconBlue = true
+_G.BaconRobux = true
+_G.BaconMartinez = true
+_G.Baconcandy = true
+_G.BaconReal = true
+_G.BaconBlindfold = true
+local SimpleUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/naypramx/Ui__Project/Script/SimpleUi"))()
+local Main = SimpleUi:create('By: yama_tm#3113')
+local Menu = Main:Menu('Auto farm')
+local Page = Menu:Page()
+local Page2 = Menu:Page()
+
+-- Logo Change --
+game:GetService("CoreGui").Simlib.Mainsceen.Topbar.ImageLabel.Image = "http://www.roblox.com/asset/?id=7040391851"
+-- Logo Change --
+
+-- Head Name -- \\ Bit
+for __,head in pairs(game:GetService("CoreGui").Simlib.Mainsceen.Topbar:GetDescendants()) do
+    if head:IsA"TextLabel" then
+        if head.Text == "SIMPLE" then
+            head.Text = "Waifu"
+        end
+    end
+end
+--Head Name \\ EiEi
+
+Page:Toggle('Bring Bacon XD',false,false,false,function(t)
+    _G.BaconXD = t
+    print('test: ',bool);
+    if t then
+       BaconXD();
+end
+end)
+
+
+Page:Toggle('Bring BaconHair',false,false,false,function(t)
+    _G.BaconHair = t
+    print('test: ',bool);
+    if t then
+       BaconHair();
+end
+end)
+
+Page:Toggle('Bring Bacon big',false,false,false,function(t)
+    _G.BaconBig = t
+    print('test: ',bool);
+    if t then
+       BaconBig();
+end
+end)
+
+Page:Toggle('Bring Bacon Buggy',false,false,false,function(t)
+    _G.BaconBuggy = t
+    print('test: ',bool);
+    if t then
+       BaconBuggy();
+end
+end)
+
+Page:Toggle('Bring Boss Bacon Buggy',false,false,false,function(t)
+    _G.BossBaconBuggy = t
+    print('test: ',bool);
+    if t then
+       BossBaconBuggy();
+end
+end)
+
+Page:Toggle('Bring Bacon Fan',false,false,false,function(t)
+    _G.BaconFan = t
+    print('test: ',bool);
+    if t then
+       BaconFan();
+end
+end)
+
+Page:Toggle('Bring Bacon King',false,false,false,function(t)
+    _G.BaconKing = t
+    print('test: ',bool);
+    if t then
+       BaconKing();
+end
+end)
+
+Page:Toggle('Bring Boss Snow',false,false,false,function(t)
+    _G.BossSnow = t
+    print('test: ',bool);
+    if t then
+       BossSnow();
+end
+end)
+
+Page:Toggle('Bring Bacon curse',false,false,false,function(t)
+    _G.Baconcurse = t
+    print('test: ',bool);
+    if t then
+       Baconcurse();
+end
+end)
+
+
+Page:Toggle('Bring Bacon angry',false,false,false,function(t)
+    _G.Baconangry = t
+    print('test: ',bool);
+    if t then
+       Baconangry();
+end
+end)
+
+Page:Toggle('Bring Bacon Red',false,false,false,function(t)
+    _G.BaconRed = t
+    print('test: ',bool);
+    if t then
+       BaconRed();
+end
+end)
+
+Page:Toggle('Bring Bacon Blue',false,false,false,function(t)
+    _G.BaconBlue = t
+    print('test: ',bool);
+    if t then
+       BaconBlue();
+end
+end)
+
+Page:Toggle('Bring Bacon Robux',false,false,false,function(t)
+    _G.BaconRobux = t
+    print('test: ',bool);
+    if t then
+       BaconRobux();
+end
+end)
+
+Page:Toggle('Bring Bacon Martinez',false,false,false,function(t)
+    _G.BaconMartinez = t
+    print('test: ',bool);
+    if t then
+       BaconMartinez();
+end
+end)
+
+
+Page:Toggle('Bring Bacon Candy',false,false,false,function(t)
+    _G.Baconcandy = t
+    print('test: ',bool);
+    if t then
+       Baconcandy();
+end
+end)
+
+Page:Toggle('Bring Bacon Real',false,false,false,function(t)
+    _G.BaconReal = t
+    print('test: ',bool);
+    if t then
+       BaconReal();
+end
+end)
+
+
+Page:Toggle('Bring Bacon Blindfold',false,false,false,function(t)
+    _G.BaconBlindfold = t
+    print('test: ',bool);
+    if t then
+       BaconBlindfold();
+end
+end)
+
+
+
+
+-- ColorChanger
+for k,v in pairs(game:GetService("CoreGui").Simlib:GetDescendants()) do
+    if v:IsA"TextButton" then
+        if v.BackgroundColor3 == Color3.fromRGB(68, 187, 165) then
+            v.BackgroundColor3 = Color3.fromRGB(255,255,255)
+        end
+    end
+end
+for k,v in pairs(game:GetService("CoreGui").Simlib:GetDescendants()) do 
+    if v:IsA"TextLabel" then
+        if v.TextColor3 == Color3.fromRGB(68, 187, 165) then
+            v.TextColor3 = Color3.fromRGB(255,255,255)
+        end
+    end
+end
+for k,v in pairs(game:GetService("CoreGui").Simlib:GetDescendants()) do
+    if v:IsA"TextLabel" then
+        if v.TextColor3 == Color3.fromRGB(33, 133, 113) then
+            v.TextColor3 = Color3.fromRGB(255,255,255)
+        end
+    end
+end
+--- function 
+function BaconXD()
+    while _G.BaconXD == true do
+    wait(1)
+for i,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Bacon XD") and v:FindFirstChild("HumanoidRootPart") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-2)
+      end
+end
+end
+end
+
+function BaconHair()
+    while _G.BaconHair == true do
+    wait(1)
+
+for i,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "BaconHair") and v:FindFirstChild("HumanoidRootPart") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-2)
+      end
+end
+end
+end
+
+function BaconBig()
+    while _G.BaconBig == true do
+    wait(1)
+
+for i,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Bacon Big") and v:FindFirstChild("HumanoidRootPart") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-2)
+      end
+end
+end
+end
+
+function BaconBuggy()
+    while _G.BaconBuggy== true do
+    wait(1)
+
+for i,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Bacon Buggy") and v:FindFirstChild("HumanoidRootPart") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-2)
+      end
+end
+end
+end
+
+
+function BossBaconBuggy()
+    while _G.BossBaconBuggy== true do
+    wait(1)
+
+for i,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Boss Bacon Buggy") and v:FindFirstChild("HumanoidRootPart") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-2)
+      end
+end
+end
+end
+
+
+function BaconFan()
+    while _G.BaconFan== true do
+    wait(1)
+
+for i,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Bacon Fan") and v:FindFirstChild("HumanoidRootPart") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-2)
+      end
+end
+end
+end
+
+
+function BaconKing()
+    while _G.BaconKing== true do
+    wait(1)
+
+for i,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Bacon King") and v:FindFirstChild("HumanoidRootPart") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-2)
+      end
+end
+end
+end
+
+
+function BossSnow()
+    while _G.BossSnow== true do
+    wait(1)
+
+for i,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Boss Snow") and v:FindFirstChild("HumanoidRootPart") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-2)
+      end
+end
+end
+end
+
+
+function Baconcurse()
+    while _G.Baconcurse== true do
+    wait(1)
+
+for i,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Bacon curse") and v:FindFirstChild("HumanoidRootPart") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-2)
+      end
+end
+end
+end
+
+
+function Baconangry()
+    while _G.Baconangry== true do
+    wait(1)
+
+for i,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Bacon angry") and v:FindFirstChild("HumanoidRootPart") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-2)
+      end
+end
+end
+end
+
+
+function BaconRed()
+    while _G.BaconRed== true do
+    wait(1)
+
+for i,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Bacon Red") and v:FindFirstChild("HumanoidRootPart") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-2)
+      end
+end
+end
+end
+
+
+function BaconBlue()
+    while _G.BaconBlue== true do
+    wait(1)
+
+for i,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Bacon Blue") and v:FindFirstChild("HumanoidRootPart") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-2)
+      end
+end
+end
+end
+
+
+
+function BaconRobux()
+    while _G.BaconRobux== true do
+    wait(1)
+
+for i,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Bacon Robux") and v:FindFirstChild("HumanoidRootPart") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-2)
+      end
+end
+end
+end
+
+
+
+function BaconMartinez()
+    while _G.BaconMartinez== true do
+    wait(1)
+
+for i,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Bacon Martinez") and v:FindFirstChild("HumanoidRootPart") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-2)
+      end
+end
+end
+end
+
+
+function Baconcandy()
+    while _G.Baconcandy== true do
+    wait(1)
+
+for i,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Bacon Candy") and v:FindFirstChild("HumanoidRootPart") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-2)
+      end
+end
+end
+end
+
+
+function BaconReal()
+    while _G.BaconReal== true do
+    wait(1)
+
+for i,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Bacon Real") and v:FindFirstChild("HumanoidRootPart") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-2)
+      end
+end
+end
+end
+
+function BaconBlindfold()
+    while _G.BaconBlindfold== true do
+    wait(1)
+
+for i,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Bacon Blindfold") and v:FindFirstChild("HumanoidRootPart") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-2)
+      end
+end
+end
+end
